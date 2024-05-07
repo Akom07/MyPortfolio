@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: rgb(225, 238, 238);
+}
+#carousel1Autoplaying{
+    height: 75vh;
+}
+.carousel-item img{
+    height: 75vh;
+}
+.btn{
+    font-size: 1.2rem;
+}
+.aboutMe{
+    line-height: 1.6rem;
+}
+.bg-color{
+    background-color: aliceblue;
+    border-radius: 10px;
+}

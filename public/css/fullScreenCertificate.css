@@ -1,0 +1,28 @@
+#imageFullScreen {
+    display: none;
+    position: fixed; 
+    padding-top: 50px; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.9);
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: auto;
+  }
+  #closeButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #AAA;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .modal-content {
+    margin: auto;
+    width: 100%;
+  }
+  #imgContainer {
+    margin: auto;
+    width: 80%; 
+  }
