@@ -1,0 +1,66 @@
+<%- include('./partials/head') %>
+    <%- include('./partials/nav') %>
+
+        <div class="contener row d-flex justify-content-center mt-4">
+            <div class="col-5 ">
+                <div id="carousel1Autoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/AmerAlghamdi.jpg" class="img-fluid d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/certificate.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/transcipt1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/transcipt2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1Autoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1Autoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-5 bg-color">
+                <div class="contener row d-flex justify-content-around">
+                    <div class="col-12 mb-2 mt-3 aboutMe">
+                        <h2 class="display-6 mb-2">About Me</h2>
+                        <p>My name is Amer Alghamdi</p>
+                        <p class="mb-3">I am a highly motivated and results-oriented Web Developer with a
+                            strong foundation in web development principles gained through
+                            an online web development bootcamp and other courses</p>
+                    </div>
+                    <div class="col-5 mb-2">
+                        <a class="btn btn-dark w-100" href="/certificates">Certificates</a>
+                    </div>
+                    <div class="col-5 mb-2">
+                        <a class="btn btn-dark w-100" href="/Skills">Skills</a>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <h2 class="display-6">Contact info</h2>
+                        <p class="mt-4"> Phone Number : 0540545524</p>
+                        <p class="mt-2">Email : akom707@gmail.com </p>
+                        <p class="mt-2"><a class="link-dark link-underline link-underline-opacity-0"
+                                href="https://github.com/Akom07">GitHub :
+                                github.com/Akom07 </a></p>
+                        <p class="mt-2 mb-2"><a class="link-dark link-underline link-underline-opacity-0"
+                                href="https://www.linkedin.com/in/amer-ali-alghamdi/">LinkedIn :
+                                www.linkedin.com/in/amer-ali-alghamdi/</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <%- include('./partials/foot') %>

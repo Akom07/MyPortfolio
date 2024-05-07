@@ -1,0 +1,30 @@
+<%- include('./partials/head') %>
+    <%- include('./partials/nav') %>
+
+        <div class="row justify-content-evenly">
+            <% for (let c of certificate){ %>
+                <div class="col-2 mx-1 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="<%= c.image %>" class="cardImage card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= c.name %>
+                            </h5>
+                            <p class="card-text mb-1">
+                                <%= c.description %>
+                            </p>
+                            <button id="expandImage" class="btn btn-sm btn-dark"> Take a closer look</button>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+        <div id="imageFullScreen" tabindex="-1">
+            <span role="button" tabindex="0" id="closeButton" aria-label="Close Expanded Image">X</span>
+            <div id="imgContainer">
+                <img class="modal-content" id="expandedImage">
+            </div>
+        </div>
+
+        <script src="./js/fullScreen.js"></script>
+        <%- include('./partials/foot') %>
